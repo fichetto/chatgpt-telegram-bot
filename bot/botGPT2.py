@@ -1,6 +1,9 @@
 import os
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram import ChatAction
 from openai import OpenAI
+import time
+
 
 # Load environment variables
 from dotenv import load_dotenv
@@ -18,8 +21,11 @@ def start(update, context):
 def respond(update, context):
     user_message = update.message.text
 
-    # Invia un messaggio temporaneo per indicare che la risposta è in elaborazione
-    temp_message = update.message.reply_text("Sto elaborando la tua richiesta...")
+    # Invia un'azione di chat per mostrare che il bot sta scrivendo
+    context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
+
+    # Aspetta un breve lasso di tempo prima di continuare (opzionale)
+    time.sleep(1)  # Importa il modulo time se non già fatto
 
     # Genera una risposta da GPT-3
     response = client.chat.completions.create(
@@ -30,13 +36,8 @@ def respond(update, context):
     # Estrai il testo della risposta
     reply_text = response.choices[0].message.content.strip()
 
-    # Controlla se il messaggio temporaneo è ancora presente prima di inviare la risposta
-    try:
-        context.bot.delete_message(chat_id=update.message.chat_id, message_id=temp_message.message_id)
-        update.message.reply_text(reply_text)
-    except Exception as e:
-        print(f"Errore nell'invio della risposta: {e}")
-
+    # Invia la risposta al messaggio dell'utente
+    update.message.reply_text(reply_text)
 
 def main():
     """Start the bot."""

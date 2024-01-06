@@ -1,0 +1,8 @@
+User: a=10
+Bot: Got it. Variable a is now assigned with the value 10.
+User: b=5
+Bot: Bot: Okay. Variable b is now assigned with the value 5.
+User: sommali
+Bot: Bot: I'm sorry, but I didn't understand what you meant by "sommali". Could you please clarify or provide more information?
+User: somma a+b
+Bot: Bot: Ah, I see! You want to calculate the sum of the variables a and b. The sum of 10 and 5 is 15.
