@@ -247,3 +247,68 @@ Chiaramente se ha la possibilità di trattare grandi contesti, può tenere a mente
 [2024-01-07 13:00:50] Garminat69: buonappetito
 [2024-01-07 13:01:32] Garminat69: @Tecnocons_BOT cosa ne pensi?
 [2024-01-07 13:01:39] Bot: Come assistente virtuale, non ho opinioni personali. Tuttavia, ritengo che l'intelligenza artificiale possa offrire diverse opportunità e potenziali nel campo della gestione delle risorse, dei tempi e nella collaborazione per fornire informazioni tecniche di supporto per i progetti. Con un buon utilizzo e integrazione delle capacità dell'intelligenza artificiale, è possibile migliorare l'organizzazione e l'efficienza dei progetti.
+[2024-01-07 17:18:54] Nikmit76: Come tutti gli strumenti se utilizzati a dovere ti semplificano la vita. Le forzature non vanno mai bene. Secondo me ha un potenziale infinito va usata
+[2024-01-07 17:18:54] Nikmit76: / ?
+[2024-01-07 17:18:54] Tonino300hp: L' assistente virtuale é un strumento, non pensate che noi dobbiamo cazzeggiare e lei lavorare per noi anzi sarà un supervisore che controlla lo stato avanzamento dei lavori, non si scorda di farlo. È un strumento, non la soluzione a tutto , noi ci dobbiamo essere sempre in maniera più attiva si, a cazzeggiare no
+[2024-01-07 17:18:54] MaxRos96: Io  trovo che sia forte ma un aiuto trasversale nella gestione dei progetti. E con tutto il lavoro che abbiamo da fare dovremmo prima imparare ad usare gli strumenti per organizzarci noi. L'organizzazione si trova attraverso uno strumento che viene utilizzato da tutti. Noi non l abbiamo mai fatto e Davide venerdì mi ha posto una serie di problemi , che in questo modo non risolveremmo. Pensiamo anche a come andare avanti ora nel miglior modo con i ritardi ed i casini che abbiamo
+[2024-01-07 17:18:54] Nikmit76: Sono tutti discorsi giustissimi concordo.
+[2024-01-07 17:18:54] Nikmit76: IA va sviluppata ed usata nel frattempo ci dobbiamo organizzare sui progetti con scadenza imminente.
+[2024-01-07 17:18:54] Tonino300hp: Ragazzi a lavoro
+[2024-01-07 17:18:54] Roger_Loco_00: Okay
+[2024-01-07 17:18:54] Garminat69: A questo punto Massimo ci devi trovare lo strumento, preparare una procedura illustrata funzionale di utilizzo e proporlo in riunione entro termini accettabili (considera che saremmo già dovuti partire in questo modo).
+Vanno valutate, semplicità di utilizzo e come tracciare tutti i testi su un database che resti di nostra proprietà.
+Lo strumento deve essere unificato.
+
+Considerate che quello che intendo io è creare un database di conoscenza appartenente a tecnocons e utilizzabile con qualsiasi modello generativo.
+Da qui si possono automatizzare infinite cose integrando strumenti esistenti al chatbot (quindi niente esclude niente).
+La prima cosa sarà il controllo dell'avanzamento dei task con domande rivolte direttamente all'utente.
+Adesso funziona su telegram, ma potrebbe funzionare con altro anche se non so se riusciamo ad avere la stessa flessibilità.
+Però potrebbero esserci delle soluzioni pronte che hanno delle API che potrebbero permetterci di integrare il nostro BOT.
+Quando ci dai software e procedura (@MaxRos96 )?
+[2024-01-07 17:18:54] Nikmit76: Per una mia organizzazione generale uso trello si integra con chat di Google file e drive. Inoltre per avviare una scheda tipo "cose da fare" basterebbe inviare una e-mail ad un indirizzo prestabilito. Tutto quello che accade su trello lo si legge da chat di Google non serve per forza l'applicazione
+[2024-01-07 17:18:54] Nikmit76: Funziona bene ed è gratuita ia si può integrare in chat di Google ?
+[2024-01-07 17:18:54] MaxRos96: Vediamo insieme la questione del database
+[2024-01-07 17:18:54] Garminat69: un'altra cosa... ricordate che tecnocons vive delle mie conoscenze/amicizie e da quello che genero con la mia testa.
+Siate efficacemente propositivi affichè il vostro lavoro sia del livello idoneo.
+[2024-01-07 17:18:54] Garminat69: non mi piace il disfattismo. Se abbiamo la procedura scritta quella sarà legge.
+[2024-01-07 17:18:54] Garminat69: delle applicazioni papabili verificate le API e le relative funzioni disponibili.
+[2024-01-07 17:18:54] MaxRos96: Trello lo abbiamo visto con Davode e non ha gestione dei task e collegamento tra loro , né timeline. Io valuterei Notion oppure Jira  in base alla loro integrazione con API
+[2024-01-07 17:18:54] Garminat69: l'integrazione telegram/notion/GPT la sto debuggando oggi
+[2024-01-07 17:18:54] Garminat69: vedete un po
+[2024-01-07 17:18:54] Garminat69: si potrà continuare su telegram e il bot metterà le cose al posto giusto, cioè database, notio, tasks... etc
+[2024-01-07 17:18:54] Nikmit76: Abbiamo bisogno di uno strumento (ovviamente va utilizzato) per l'organizzazione dei progetti/task. Ovviamente deve integrare ia se non è chiaro è il presente siamo già in ritardo sotto questo aspetto.
+[2024-01-07 17:18:54] Garminat69: una customizzazione sarà indispensabile
+[2024-01-07 17:18:54] Nikmit76: Notion è molto valido
+[2024-01-07 17:18:54] Nikmit76: Jira più amichevole ma non so se si può integrare ia
+[2024-01-07 17:18:54] Garminat69: siamo fortemente in ritardo... abbiamo però il vantaggio di essere integratori.
+In questo caso dovremmo essere all'avanguardia.
+Oggi chi mette le mani sono solo softwaristi... ma noi facciamo anche automazione e robotica...
+[2024-01-07 17:18:54] Garminat69: unire i puntini
+[2024-01-07 17:18:54] Garminat69: è il nostro mestiere
+[2024-01-07 17:18:54] Garminat69: https://krishna-potharaju.medium.com/bridging-the-gap-how-to-create-a-chatgpt-telegram-bot-with-notion-backup-65c037831fe8
+[2024-01-07 17:18:54] Garminat69: un esempio di integrazione
+[2024-01-07 17:18:54] MaxRos96: Allora partiamo così: 
+Popolo Notion 
+Creo struttura standard di pagine progetto 
+Assegno Task 
+Invito tutti e mando la procedura
+[2024-01-07 17:18:54] MaxRos96: Da qui iniziamo a vedere come interfacciare e cosa sistemare
+[2024-01-07 17:18:54] Nikmit76: Perfetto
+[2024-01-07 17:18:54] Garminat69: https://n8n.io/integrations/notion/and/telegram/
+
+Si può usare notion da telegram... hghggh.
+Quindi dobbiamo guardare insieme la procedura.
+[2024-01-07 17:18:54] Garminat69: @MaxRos96 la procedura mandala prima a me
+[2024-01-07 17:18:54] Nikmit76: Notion funziona bene è un ottima scelta va capito non è molto amichevole all'inizio ma dopo va a bomba
+[2024-01-07 17:18:54] Garminat69: vedremo come semplificare l'aspetto poco amichevole
+[2024-01-07 17:18:54] Tonino300hp: @Nikmit76 @Roger_Loco_00 le previsioni portano pioggia per domani a Polignano, rinviamo a martedì, domani in laboratorio a Crispiano
+[2024-01-07 17:18:54] Roger_Loco_00: Okay okay, ci vediamo domani
+[2024-01-07 17:18:54] Nikmit76: Perfetto
+[2024-01-07 17:18:54] Nikmit76: Martedì entro le 14 dobbiamo essere a Crispiano viene il tecnico Enel per l'attivazione rete internet
+[2024-01-07 17:18:54] Tonino300hp: Non c'è la facciamo per le 14, andiamo mercoledì
+[2024-01-07 17:18:54] Nikmit76: Serve la mia.presenza mi dispiace
+[2024-01-07 17:18:54] Nikmit76: Grazie
+[2024-01-07 17:18:54] Nikmit76: Domani finiamo le stampe di Polignano (12 kit portello) e le assembliamo. Nel frattempo continuo con il caschetto medico. Martedì è pronto il.jet da Vimar e se tutto va bene martedì chiudiamo questo step.
+Mercoledì Polignano
+[2024-01-07 17:18:54] Tonino300hp: Ok, dobbiamo rimettere in cantiere la mini pala eolica, aspettiamo direttive da Mino in merito
+[2024-01-07 17:19:48] Nikmit76: La parte meccanica del caschetto è a buon punto
