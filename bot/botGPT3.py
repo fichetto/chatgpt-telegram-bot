@@ -31,7 +31,7 @@ def save_chat_message(chat_id, message):
     file_name = f"chat_history_{chat_id}.txt"
     with open(file_name, "a") as file:
         file.write(f"{message}\n")
-
+        
 # def respond(update, context):
 #     chat_id = update.effective_chat.id
 #     user_message = update.message.text
@@ -46,12 +46,12 @@ def save_chat_message(chat_id, message):
 #     # Recupera la cronologia della chat
 #     chat_history = get_chat_history(chat_id)
 
-#     # Genera una risposta da GPT-3
-#     response = client.chat.completions.create(
-#         messages=[{"role": "system", "content": "You are a helpful assistant."}]
-#                 + [{"role": "user", "content": chat_history}],
-#         model="gpt-3.5-turbo"
+#     # Genera una risposta da GPT-4
+#     response = openai.ChatCompletion.create(
+#         model="gpt-4", 
+#         messages=[{"role": "user", "content": chat_history}]
 #     )
+
 
 #     # Estrai il testo della risposta
 #     reply_text = response.choices[0].message.content.strip()
@@ -66,22 +66,27 @@ def respond(update, context):
 
     # Mostra che il bot sta scrivendo
     context.bot.send_chat_action(chat_id=chat_id, action=ChatAction.TYPING)
+    time.sleep(1)
 
-    # Inizia lo streaming della risposta da GPT-4
-    stream = client.chat.completions.create(
-        model="gpt-4",
-        messages=[{"role": "user", "content": user_message}],
-        stream=True,
+    # Aggiorna la cronologia della chat
+    save_chat_message(chat_id, f"User: {user_message}")
+
+    # Recupera la cronologia della chat
+    chat_history = get_chat_history(chat_id)
+
+    # Genera una risposta da GPT-3
+    response = client.chat.completions.create(
+        messages=[{"role": "system", "content": "You are a helpful assistant."}]
+                + [{"role": "user", "content": chat_history}],
+        model="gpt-3.5-turbo"
     )
 
-    try:
-        for chunk in stream:
-            if chunk.choices[0].delta.content is not None:
-                # Invia ogni pezzo della risposta non appena disponibile
-                context.bot.send_message(chat_id=chat_id, text=chunk.choices[0].delta.content)
-    except Exception as e:
-        # Gestisci eventuali eccezioni
-        print(f"Errore durante lo streaming della risposta: {e}")
+    # Estrai il testo della risposta
+    reply_text = response.choices[0].message.content.strip()
+    save_chat_message(chat_id, f"Bot: {reply_text}")
+
+    # Invia la risposta
+    update.message.reply_text(reply_text)
 
 
 def main():

@@ -6,3 +6,18 @@ User: sommali
 Bot: Bot: I'm sorry, but I didn't understand what you meant by "sommali". Could you please clarify or provide more information?
 User: somma a+b
 Bot: Bot: Ah, I see! You want to calculate the sum of the variables a and b. The sum of 10 and 5 is 15.
+User: ciola
+Bot: Bot: Hello! How can I assist you today?
+User: scrivi a
+Bot: Bot: The value of variable a is currently 10.
+User: SCRIVI B
+User: scrivi b
+Bot: Bot: The value of variable b is currently 5.
+User: cosa rappresenta l'epifania?
+Bot: Bot: L'Epifania rappresenta la festa cristiana che celebra la visita dei Magi al bambino Gesù. Si celebra l'6 gennaio di ogni anno ed è anche associata alla fine delle festività natalizie.
+User: in queli parti del mondo si festeggia?
+Bot: Bot: L'Epifania viene festeggiata in diverse parti del mondo, ma è più diffusa nelle tradizioni cristiane. È particolarmente celebrata nei paesi europei come l'Italia, la Spagna, la Francia e la Germania. Tuttavia, è importante notare che le celebrazioni possono variare da paese a paese.
+User: negli USA?
+Bot: Bot: Negli Stati Uniti, l'Epifania non è una festa molto diffusa o riconosciuta come in alcuni paesi europei. Tuttavia, alcune comunità cattoliche o ortodosse possono organizzare eventi o celebrazioni per commemorare l'Epifania.
+User: quindi è un normale giorno lavorativo
+Bot: Bot: Sì, negli Stati Uniti l'Epifania è generalmente considerata un giorno lavorativo normale. Le scuole e le aziende rimangono aperte e non ci sono festività ufficiali associate a questa giornata.
